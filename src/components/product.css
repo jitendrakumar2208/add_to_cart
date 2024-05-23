@@ -1,0 +1,33 @@
+.box {
+  width: 450px;
+  border: 5px solid goldenrod;
+}
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+  background: #808080;
+  color: #fff;
+  padding: 10px;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: rgb(35, 91, 154);
+  height: 40px;
+  width: 60px;
+  text-align: center;
+  border-radius: 15px;
+}
+.minus {
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: 700;
+}
+.plus {
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: 700;
+}
